@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Sen", serif;
+}
+
+/* ========== Common ========== */
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 118px;
+    padding: 11px 16px;
+    border-radius: 24.5px;
+
+    text-align: center;
+    line-height: 1.75;
+    font-weight: 600;
+
+    background-color: #000;
+    color: #fff;
+}
+
+.content {
+    width: 1440px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ========== Header ========== */
+.navbar {
+    display: flex;
+    align-items: center;
+    margin: 0 135px;
+    margin-top: 36px;
+}
+
+.navbar .navigation {
+    display: flex;
+    gap: 42px;
+    margin-left: auto;
+}
+
+.navbar .navigation a {
+    text-align: center;
+    line-height: 1.75;
+    font-weight: 400;
+
+    color: #5f5b53;
+}
+
+.navbar .actions-btn {
+    min-width: 144px;
+    margin-left: 70px;
+}
+
+.hero {
+    display: flex;
+    margin: 0 135px;
+}
+
+.hero .hero-img {
+    width: 470px;
+    height: 685px;
+}
+
+h1 {
+    width: 470px;
+
+    font-size: 5.8rem;
+    font-family: "Sen", serif;
+    line-height: 68px; /* 117.241% */
+    font-weight: 700;
+    letter-spacing: -1.16px;
+
+    color: #171100;
+}
+
+.hero .desc {
+    width: 470px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 1.8rem;
+    line-height: 30px; /* 166.667% */
+    font-weight: 400;
+
+    color: #5f5b53;
+}
+
+/* ========== ========== */
+/* ========== ========== */
+/* ========== ========== */
